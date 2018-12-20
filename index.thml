@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Monster Elements s.r.o." />
+		
+		<link href="//fonts.googleapis.com/css?family=Titillium+Web:400&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+		<link href="/style.css?v=c81" rel="stylesheet" />
+		
+		<title>Monster Elements s.r.o.</title>
+	</head>
+	<body>
+		<div id="particles-js"></div>
+		<p id="logo"><img id="img-logo" src="/logo.png" alt="Monster Elements s.r.o."></p>
+		<span>
+		<p>  
+			<strong>Monster Elements s.r.o.</strong>
+			<p>IČO: 074 11 529</p>
+			<p>Sídlo: Rybná 716/24, Staré Město, 110 00 Praha 1</p>
+			<p>Kontakt: +420 605 382 382</p>
+			<p>Odpovědná osoba : Lukáš Dědič</p>
+			<p>E-Mail: info<noscript>(at)</noscript><script type="text/javascript">document.write("@");</script>monsterelements.cz</p>
+		</span>		
+		<script type="text/javascript" src="particles.js"></script>
+		<script type="text/javascript">
+		particlesJS.load('particles-js', 'config.json', function() {
+			console.log('callback - particles.js config loaded');
+		});
+		</script>
+	</body>
+</html>
